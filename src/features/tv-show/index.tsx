@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
 import { ResponTvShow, Tv } from "../../services/tv-show/type";
+import { useEffect, useState } from "react";
 
 import TvShowCard from "../../components/tvshow-card";
 import { getNowTvShow } from "../../services/tv-show";
